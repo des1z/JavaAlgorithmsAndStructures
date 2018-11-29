@@ -1,5 +1,3 @@
-import java.util.Random;
-
 /**
  * @version 29.11.2018
  * @author Viktor Chernyaev
@@ -7,7 +5,7 @@ import java.util.Random;
  * @link https://github.com/des1z
  */
 
-public class HW2 {
+public class Main {
     public static void main(String[] args) {
         int arrSize = 1000000;
         int randomGenerator;
