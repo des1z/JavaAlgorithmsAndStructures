@@ -6,9 +6,16 @@ public class Program {
         list.insertFirst(5);
         list.insertFirst(6);
         list.insertFirst(7);
-        list.insertFirst(8);
-        list.insertFirst(9);
-        list.insertFirst(10);
+        list.insertLast(11);
+        list.insertLast(33);
+        list.insertLast(55);
+        list.insertLast(77);
+
+        System.out.println(list.size());
+        System.out.println(list.find(22));
+        System.out.println(list.find(7));
+        list.delete(7);
+        System.out.println(list.find(7));
 
         /*Iterator<Integer> iter = list.iterator();
 
